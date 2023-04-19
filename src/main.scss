@@ -1,0 +1,37 @@
+@import '../node_modules/nord/src/sass/nord.scss';
+
+$blue:     $nord10;
+$indigo:   #9278e0;
+$purple:   #5f4d8d;
+$pink:     $nord15;
+$red:      $nord11;
+$orange:   $nord12;
+$yellow:   $nord13;
+$green:    $nord14;
+$teal:     $nord7;
+$cyan:     $nord8;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+#app, html {
+    background-color: $nord0;
+    color: $nord5;
+}
+
+.btn-navbar {
+    background-color: $nord1;
+    color: $nord4;
+    border-radius: 45em;
+    --bs-btn-padding-x: 12px;
+    --bs-btn-padding-y: 4px;
+    font-family: "Inria Serif", serif;
+    &:hover {
+        @extend .btn-navbar;
+        background-color: $nord2;
+    }
+    &:active:focus {
+        @extend .btn-navbar;
+        background-color: $nord3;
+        border-color: $nord4;
+    }
+}
