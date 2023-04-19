@@ -5,10 +5,6 @@ export default {
             type: String,
             default: 'plus-square'
         },
-        text: {
-            type: String,
-            default: 'Button'
-        },
         link: {
             type: String
         }
@@ -17,5 +13,5 @@ export default {
 </script>
 
 <template>
-    <a class="btn btn-navbar" :href="link"> <i :class="'bi-' + icon"></i> {{ text }} </a>
+    <a class="btn btn-navbar" :href="link"> <i :class="'bi-' + icon"></i> <slot>Button</slot></a>
 </template>

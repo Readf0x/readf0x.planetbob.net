@@ -6,6 +6,6 @@ import Logo from './components/Logo.vue'
 <template>
     <div class="p-3">
         <Logo></Logo>
-        <NavButton icon="columns-gap" text="Projects"></NavButton>
+        <NavButton icon="columns-gap">Projects</NavButton>
     </div>
 </template>
