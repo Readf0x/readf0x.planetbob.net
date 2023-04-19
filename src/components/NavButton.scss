@@ -1,0 +1,17 @@
+.btn-navbar {
+    background-color: $nord1;
+    color: $nord4;
+    border-radius: 45em;
+    --bs-btn-padding-x: 12px;
+    --bs-btn-padding-y: 4px;
+    font-family: 'Inria Serif', serif;
+    &:hover {
+        @extend .btn-navbar;
+        background-color: $nord2;
+    }
+    &:active:focus {
+        @extend .btn-navbar;
+        background-color: $nord3;
+        border-color: $nord4;
+    }
+}
