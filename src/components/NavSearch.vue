@@ -13,5 +13,8 @@ export default {
 </script>
 
 <template>
-    <a class="btn btn-navbar" :href="link"><i :class="'bi bi-' + icon"></i> <slot>Button</slot></a>
+    <form class="btn btn-search">
+        <i class="bi bi-search" />
+        <input class="form-control" type="text" placeholder="Search...">
+    </form>
 </template>

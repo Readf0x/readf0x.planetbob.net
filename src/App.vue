@@ -1,11 +1,9 @@
 <script setup>
-import NavButton from './components/NavButton.vue'
-import Logo from './components/Logo.vue'
+import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-    <div class="p-3">
-        <Logo></Logo>
-        <NavButton icon="columns-gap">Projects</NavButton>
+    <div>
+        <NavBar />
     </div>
 </template>

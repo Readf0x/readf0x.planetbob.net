@@ -1,12 +1,15 @@
 @import '../node_modules/nord/src/sass/nord.scss';
 
 .btn-navbar {
+    display: inline-flex;
     background-color: $nord1;
     color: $nord4;
     border-radius: 45em;
-    --bs-btn-padding-x: 12px;
-    --bs-btn-padding-y: 4px;
+    --bs-btn-padding-x: 8px;
+    --bs-btn-padding-y: 0px;
     font-family: 'Inria Serif', serif;
+    font-size: 24px;
+    align-items: center;
     &:hover {
         @extend .btn-navbar;
         background-color: $nord2;
@@ -15,5 +18,8 @@
         @extend .btn-navbar;
         background-color: $nord3;
         border-color: $nord4;
+    }
+    i.bi {
+        padding-right: .25em;
     }
 }

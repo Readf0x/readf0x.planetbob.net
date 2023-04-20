@@ -1,0 +1,19 @@
+@import '../node_modules/nord/src/sass/nord.scss';
+@import "./NavButton.scss";
+
+.btn-search {
+    @extend .btn-navbar;
+    input {
+        display: inline;
+        width: 25vw;
+        border: none;
+        padding: 0;
+        font-size: inherit;
+        background: none;
+        color: inherit;
+        &:focus {
+            @extend input;
+            border-radius: 0;
+        }
+    }
+}
