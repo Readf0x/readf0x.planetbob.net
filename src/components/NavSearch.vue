@@ -15,6 +15,6 @@ export default {
 <template>
     <form class="btn btn-search">
         <i class="bi bi-search" />
-        <input class="form-control" type="text" placeholder="Search...">
+        <input class="form-control" type="text" placeholder="Search..." />
     </form>
 </template>
