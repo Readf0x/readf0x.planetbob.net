@@ -1,17 +1,35 @@
 <script setup>
-import navitem from './NavButton.vue'
-import logo from './Logo.vue'
-import search from './NavSearch.vue'
+import NavButton from './NavButton.vue'
+import Logo from './Logo.vue'
+import NavSearch from './NavSearch.vue'
 </script>
 
 <template>
-    <nav class="navbar">
+    <nav class="navbar" :class="{active: scrollPosition > 50}">
         <logo />
         <div>
-            <navitem icon="columns-gap" class="ms-2">Projects</navitem>
-            <navitem icon="info-circle" class="ms-2">About Me</navitem>
-            <navitem icon="envelope" class="ms-2">Contact</navitem>
-            <search class="ms-2" />
+            <nav-button icon="columns-gap" class="ms-2">Projects</nav-button>
+            <nav-button icon="info-circle" class="ms-2">About Me</nav-button>
+            <nav-button icon="envelope" class="ms-2">Contact</nav-button>
+            <nav-search class="ms-2" />
         </div>
     </nav>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            scrollPosition: null
+        }
+    },
+    methods: {
+        onScroll() {
+            this.scrollPosition = window.scrollY
+        }
+    },
+    mounted() {
+        window.addEventListener("scroll", this.onScroll)
+    }
+}
+</script>

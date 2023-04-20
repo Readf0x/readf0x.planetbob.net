@@ -15,8 +15,22 @@ $input-btn-focus-width: 0;
 
 @import 'bootstrap/scss/bootstrap';
 
-#app,
-html {
+#app {
     background-color: $nord0;
-    color: $nord5;
+    color: $nord6;
+    font-family: 'Bitter', sans-serif;
+    position: relative;
+}
+html {
+    @extend #app;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    transition: 0.3s ease-in-out;
+    &.active {
+        background-color: $nord0;
+    }
 }

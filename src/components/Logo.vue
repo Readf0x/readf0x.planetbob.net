@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <div class="logo">
+    <a class="logo navbar-brand" href="./">
         <svg
             class="icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -14,23 +14,24 @@
             />
         </svg>
         <p class="text">readf0x</p>
-    </div>
+    </a>
 </template>
 
 <style lang="scss">
+@import '../node_modules/nord/src/sass/nord.scss';
+
 .logo {
     font-family: 'Inria Serif', serif;
-    font-size: 36px;
+    font-size: 36px !important;
     display: inline-flex;
     height: 40px;
     overflow: hidden;
-    p {
-        display: inline;
-    }
     .text {
+        display: inline;
         position: relative;
         bottom: 0.2em;
         letter-spacing: -2px;
+        color: $nord4;
     }
 }
 </style>

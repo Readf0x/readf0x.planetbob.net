@@ -1,9 +1,9 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
+import MainHero from './components/MainHero.vue'
 </script>
 
 <template>
-    <div>
-        <NavBar />
-    </div>
+    <NavBar />
+    <MainHero />
 </template>
