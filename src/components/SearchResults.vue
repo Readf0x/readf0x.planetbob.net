@@ -1,3 +1,7 @@
+<script setup>
+import { marked } from 'marked'
+</script>
+
 <script>
 export default {
     methods: {
@@ -11,12 +15,25 @@ export default {
                 }
             }
         }
+    },
+    data() {
+        return {
+            query: this.getQueryVariable("q")
+        }
+    },
+    mounted() {
+        fetch('../src/markdown/About.md')
+            .then(response => response.text())
+            .then(text => document.querySelector('.marked').innerHTML = marked.parse(text))
+        
     }
 }
 </script>
 
 <template>
-    <div class=" container-md">
-        <p>{{ getQueryVariable("q") }}</p>
+    <div>
+        <p>{{ query }}</p>
+    </div>
+    <div class='marked'>
     </div>
 </template>

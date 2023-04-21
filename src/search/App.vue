@@ -5,5 +5,7 @@ import SearchResults from '../components/SearchResults.vue';
 
 <template>
     <NavBar />
-    <SearchResults />
+    <div class="content container-md">
+        <SearchResults />
+    </div>
 </template>
