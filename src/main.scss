@@ -19,9 +19,10 @@ $input-btn-focus-width: 0;
     background-color: $nord0;
     color: $nord6;
     font-family: 'Bitter', sans-serif;
-    position: relative;
+    min-height: 100vh;
+    // position: relative;
 }
-html {
+html, body {
     @extend #app;
 }
 .navbar {
@@ -32,5 +33,6 @@ html {
     transition: 0.3s ease-in-out;
     &.active {
         background-color: $nord0;
+        position: sticky;
     }
 }

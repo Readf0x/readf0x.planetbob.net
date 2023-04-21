@@ -1,3 +1,13 @@
+<script>
+export default {
+    data() {
+        return {
+            nav: document.querySelector(".navbar")
+        }
+    }
+}
+</script>
+
 <template>
     <div class="hero">
         <div class="text container-md">

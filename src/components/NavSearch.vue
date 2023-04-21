@@ -1,20 +1,21 @@
 <script>
 export default {
-    props: {
-        icon: {
-            type: String,
-            default: 'plus-square'
-        },
-        link: {
-            type: String
+    methods: {
+        searchRedir(data) {
+            let url = new URL(window.location.href)
+            if (!url.toString().endsWith('/')) {
+                url += '/'
+            }
+            let params = new URLSearchParams(url.search)
+            params.append('s', data)
         }
     }
 }
 </script>
 
 <template>
-    <form class="btn btn-search">
-        <i class="bi bi-search" />
-        <input class="form-control" type="text" placeholder="Search..." />
+    <form action="/search/" method="get" class="btn btn-search">
+        <button class="bi bi-search" type="submit" />
+        <input class="form-control" type="search" name="q" placeholder="Search..." />
     </form>
 </template>

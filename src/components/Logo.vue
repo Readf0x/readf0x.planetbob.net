@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <a class="logo navbar-brand" href="./">
+    <a class="logo navbar-brand" href="/">
         <svg
             class="icon"
             xmlns="http://www.w3.org/2000/svg"

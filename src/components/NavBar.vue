@@ -5,7 +5,7 @@ import NavSearch from './NavSearch.vue'
 </script>
 
 <template>
-    <nav class="navbar" :class="{active: scrollPosition > 50}">
+    <nav class="navbar" :class="{ active: scrollPosition > 50 || !hero }">
         <logo />
         <div>
             <nav-button icon="columns-gap" class="ms-2">Projects</nav-button>
@@ -23,13 +23,19 @@ export default {
             scrollPosition: null
         }
     },
+    props: {
+        hero: {
+            type: Boolean,
+            default: false
+        }
+    },
     methods: {
         onScroll() {
             this.scrollPosition = window.scrollY
         }
     },
     mounted() {
-        window.addEventListener("scroll", this.onScroll)
+        window.addEventListener('scroll', this.onScroll)
     }
 }
 </script>
