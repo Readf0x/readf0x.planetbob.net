@@ -1,7 +1,7 @@
 <script setup>
 import NavButton from './NavButton.vue'
-import Logo from './Logo.vue'
 import NavSearch from './NavSearch.vue'
+import Logo from './Logo.vue'
 </script>
 
 <template>

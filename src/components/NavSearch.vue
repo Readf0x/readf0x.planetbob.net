@@ -16,6 +16,6 @@ export default {
 <template>
     <form action="/search/" method="get" class="btn btn-search">
         <button class="bi bi-search" type="submit" />
-        <input class="form-control" type="search" name="q" placeholder="Search..." />
+        <input class="form-control" name="q" placeholder="Search..." />
     </form>
 </template>
