@@ -1,11 +1,11 @@
 <script setup>
 import NavBar from '../components/NavBar.vue'
-// import SearchResults from '../components/SearchResults.vue';
+import Marked from '../components/Marked.vue'
 </script>
 
 <template>
     <NavBar />
     <div class="content container-md">
-        <!-- <SearchResults /> -->
+        <Marked parse='About.md' />
     </div>
 </template>

@@ -7,9 +7,12 @@ import Logo from './Logo.vue'
 <template>
     <nav class="navbar" :class="{ active: scrollPosition > 50 || !hero }">
         <logo />
+        <div class="easter-egg">
+            :3
+        </div>
         <div>
             <nav-button icon="columns-gap" class="ms-2">Projects</nav-button>
-            <nav-button icon="info-circle" class="ms-2" link="/about">About Me</nav-button>
+            <nav-button icon="info-circle" class="ms-2" link="/about/">About Me</nav-button>
             <nav-button icon="envelope" class="ms-2">Contact</nav-button>
             <nav-search class="ms-2" />
         </div>
@@ -39,3 +42,14 @@ export default {
     }
 }
 </script>
+
+<style lang="scss">
+@import '../node_modules/nord/src/sass/nord.scss';
+    .easter-egg {
+        color: transparent;
+        &:hover {
+            color: $nord10;
+            cursor: none;
+        }
+    }
+</style>

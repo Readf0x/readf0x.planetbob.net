@@ -32,6 +32,9 @@
         bottom: 0.2em;
         letter-spacing: -2px;
         color: $nord4;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
     }
 }
 </style>

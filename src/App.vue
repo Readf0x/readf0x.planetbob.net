@@ -4,6 +4,6 @@ import MainHero from './components/MainHero.vue'
 </script>
 
 <template>
-    <NavBar hero="true" />
+    <NavBar :hero="true" />
     <MainHero />
 </template>
