@@ -1,5 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
+import hljs from 'highlight.js';
 import { marked } from 'marked';
 </script>
 <script>
@@ -18,6 +19,7 @@ export default {
             .then(text => {
                 document.querySelector('.marked').innerHTML = marked.parse(text)
                 this.markedData = marked.parse(text)
+                hljs.highlightAll();
             })
     }
 }
@@ -30,6 +32,8 @@ export default {
 </template>
 
 <style lang="scss">
+@import '../node_modules/nord/src/sass/nord.scss';
+
 .head-wrapper {
     display: flex;
     flex-direction: row;
@@ -61,6 +65,12 @@ export default {
         -webkit-user-select: none; /* Safari */
         -ms-user-select: none; /* IE 10 and IE 11 */
         user-select: none; /* Standard syntax */
+    }
+}
+pre {
+    border-radius: 20px;
+    code {
+        background-color: $nord1 !important;
     }
 }
 

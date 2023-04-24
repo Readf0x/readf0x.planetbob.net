@@ -20,6 +20,19 @@ $input-btn-focus-width: 0;
     color: $nord6;
     font-family: 'Bitter', sans-serif;
     min-height: 100vh;
+    &::-webkit-scrollbar {
+        background-color: $nord0;
+        width: 10px;
+
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $nord1;
+        border-radius: 20px;
+        &:hover {
+            background-color: $nord2;
+            border-radius: 20px;
+        }
+    }
     // position: relative;
 }
 html, body {
