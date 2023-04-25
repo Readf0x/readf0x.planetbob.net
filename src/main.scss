@@ -20,6 +20,8 @@ $input-btn-focus-width: 0;
     color: $nord6;
     font-family: 'Bitter', sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     &::-webkit-scrollbar {
         background-color: $nord0;
         width: 10px;
@@ -33,19 +35,29 @@ $input-btn-focus-width: 0;
             border-radius: 20px;
         }
     }
+    .navbar {
+        position: fixed;
+        flex: none;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+        transition: 0.3s ease-in-out;
+        &.active {
+            background-color: $nord0;
+            position: sticky;
+        }
+    }
+    .content {
+        flex: 1;
+        height: 100%;
+        overflow-y: hidden;
+    }
+    .footer {
+        flex: none;
+    }
     // position: relative;
 }
 html, body {
     @extend #app;
-}
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-    transition: 0.3s ease-in-out;
-    &.active {
-        background-color: $nord0;
-        position: sticky;
-    }
+    --bs-border-color: #3B4252;
 }

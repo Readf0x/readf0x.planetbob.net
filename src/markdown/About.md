@@ -27,7 +27,7 @@ Some of my favorites include:
 As previously mentioned, I do enjoy a bit of gaming here and there, not *that* much... 
 ![](/src/assets/sarcasm.png)
 
-I swear I don't play ***that*** much... Only a *liiitle*... :P
+I swear I don't play ***that*** much... Only a [*liiitle*](https://steamtime.info/s/76561198311420145)... :P
 
 ### <div class="head-wrapper"><span class="head pe-1">Programming</span></div>
 I've been a programmer since I was maybe ~11. It all started with [a video from a russian youtuber](https://www.youtube.com/watch?v=ttcOHNlNKPE) where he jokingly taught the basics of html. I was scared of javascript for a long time because I thought that I was too dumb to understand it, lol. I still don't properly know any high-level languages, despite my efforts to learn both java and kotlin.

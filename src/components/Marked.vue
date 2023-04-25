@@ -69,9 +69,14 @@ export default {
 }
 pre {
     border-radius: 20px;
+    width: fit-content;
     code {
         background-color: $nord1 !important;
+        width: fit-content;
     }
+}
+img {
+    border-radius: 20px;
 }
 
 </style>
