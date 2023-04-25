@@ -47,6 +47,9 @@
     a {
         color: $nord4;
         text-decoration: none;
+        &:hover {
+            @extend a;
+        }
     }
 }
 </style>

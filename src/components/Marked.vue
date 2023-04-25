@@ -14,7 +14,7 @@ export default {
         parse: String
     },
     mounted() {
-        fetch('../src/markdown/' + this.parse)
+        fetch('/src/markdown/' + this.parse)
             .then(response => response.text())
             .then(text => {
                 document.querySelector('.marked').innerHTML = marked.parse(text)

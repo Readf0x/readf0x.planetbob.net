@@ -7,20 +7,20 @@ Hey, I'm Davis Forsythe, but I go by readf0x online. I'm 16 and currently studyi
 ### <div class="head-wrapper"><span class="head pe-1">Music</span></div>
 I love music, not so much making it as listening to it though, lol. I enjoy a wide variety of genres from japanese alt-rock to emo rap. I'm definitely not a "I listen to everything" person. I *despise* hyperpop. My favorite artist is probably [Porter Robinson](https://www.youtube.com/@porterrobinson), but it'sd quite hard to pin down an overall favorite when you listen to as much as I do 😅.<br>
 Some of my favorites include:
+- Arctic Monkeys
 - Foster the People
-- Wienners
 - Gorillaz
-- Poorstacy
 - Joji
-- Lovejoy
 - King Gizzard
-- Tyler, The Creator
+- Lovejoy
+- Machine girl
+- Poorstacy
 - Tame Impala
 - The Academic
-- Zutomayo
-- Machine girl
 - The Strokes
-- Arctic Monkeys
+- Tyler, The Creator
+- Wienners
+- Zutomayo
 - And more!
 
 ### <div class="head-wrapper"><span class="head pe-1">Gaming</span></div>
