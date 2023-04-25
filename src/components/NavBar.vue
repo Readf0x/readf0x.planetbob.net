@@ -11,9 +11,9 @@ import Logo from './Logo.vue'
             :3
         </div>
         <div>
-            <nav-button icon="columns-gap" class="ms-2">Projects</nav-button>
+            <nav-button icon="columns-gap" class="ms-2" link="/projects/">Projects</nav-button>
             <nav-button icon="info-circle" class="ms-2" link="/about/">About Me</nav-button>
-            <nav-button icon="envelope" class="ms-2">Contact</nav-button>
+            <nav-button icon="envelope" class="ms-2" link="/contact/">Contact</nav-button>
             <nav-search class="ms-2" />
         </div>
     </nav>

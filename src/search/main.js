@@ -6,6 +6,7 @@ import './main.scss'
 import '../components/NavButton.scss'
 import '../components/NavSearch.scss'
 import 'bootstrap-icons/font/bootstrap-icons.scss'
+import 'highlight.js/scss/nord.scss'
 
 createApp(App).mount('#app')
 

@@ -29,7 +29,9 @@
                     <a href="https://twitter.com/DavisForsythe"><i class="bi bi-twitter pe-1"></i></a>
                     <a href="https://www.facebook.com/profile.php?id=100082943906080"><i class="bi bi-facebook pe-1"></i></a>
                     <a href="https://www.instagram.com/davis.a.forsythe/"><i class="bi bi-instagram pe-1"></i></a>
-                    <a href="https://github.com/Readf0x"><i class="bi bi-github"></i></a>
+                    <a href="https://github.com/Readf0x"><i class="bi bi-github pe-1"></i></a>
+                    <!-- TODO: Add steam profile link -->
+                    <a href=""><i class="bi bi-steam"></i></a>
                 </div>
             </footer>
         </div>

@@ -8,6 +8,6 @@ import PageFooter from './components/PageFooter.vue';
     <NavBar :hero="true" />
     <div class="content">
         <MainHero />
-        <PageFooter />
     </div>
+    <PageFooter />
 </template>
