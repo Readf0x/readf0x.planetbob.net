@@ -29,5 +29,13 @@
         "This terrible function is about the extent of my knowledge of kotlin... yeah. Despite these challenges, I have pursued front end web development to the point of making the site you're on right now! This site is written in vue and vite, with help from bootstrap. I'm using single-file components for all the elements on the site. The text you're reading right now is actually a markdown file being compiled using marked. The kotlin code block above was styled with highight.js. The navbar and the buttons on it use bootstrap, with custom styling from yours truly.",
         "Keyboards",
         "I love custom keyboards (mechanical, to be specific). I built the keyboard I use at home and once I have a job I'll definitely be building another, better one. Right now my build consists of a GMMK TKL, filmed alpaca switches, and some cheap typewriter style keycaps I bought off amazon. Truly not the best setup, I know. I don't know what case I'm gonna use next, but I do know I'm gonna use gateron's oil kings or ink black switches. I definitely want to get an alice keyboard at sone point, because they look so cool, but I'm a little scared I won't get my money's worth because I've never used any layout other than the standard ansi one."
+    ],
+    "Projects": [
+        "Projects",
+        "I've worked on quite a few projects over the years, all of the notable ones being web-based. I actually no longer have access to quite a few \"failed\" projects, because if I didn't succeed in making whatever I was trying to make, I tended to nuke the source code. Big mistake, I know, but there's not much I can do about it now... Because of the non-existence of all failed projects, I don't have much to show on this page, But I'll show what I can.",
+        "Earliest work",
+        "The earliest surviving code I've written belongs to a site I had to make for cyber foundations. I really went all-out, I didn't know much but I went way above and beyond what was required to pass.",
+        "And then?",
+        "After that... I have no clue what order things happened in. But I have gone through the trouble of keeping what was left running. This was my personal site before now. The barebones was written in nothing but html and css. No libraries, no javascript, nothin'. As mentioned on the [about page](/about/), I used to be scared of javascript, and all other actual programming languages, because it was \"too hard\" and I \"wouldn't understand it\" (I was a real piece of... *work* as a kid.)"
     ]
 }
