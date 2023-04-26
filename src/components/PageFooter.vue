@@ -31,7 +31,7 @@
                     <a href="https://www.instagram.com/davis.a.forsythe/"><i class="bi bi-instagram pe-1"></i></a>
                     <a href="https://github.com/Readf0x"><i class="bi bi-github pe-1"></i></a>
                     <!-- TODO: Add steam profile link -->
-                    <a href=""><i class="bi bi-steam"></i></a>
+                    <a href="https://steamcommunity.com/id/readf0x"><i class="bi bi-steam"></i></a>
                 </div>
             </footer>
         </div>

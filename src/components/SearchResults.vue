@@ -15,9 +15,6 @@ export default {
                 }
             }
         },
-        clamp(num, min, max) {
-            return Math.min(Math.max(num, min), max)
-        },
         searchIndex() {
             for(const file in this.index) {
                 this.results[file] = []
@@ -53,10 +50,11 @@ export default {
                 title.classList.add("result-title")
                 div.appendChild(title)
                 this.results[file].forEach(result => {
+                    let resultClean = result.split(":")[0].replace(/,/g, "%2C").replace(/'/g, "%27").replace(/"/g, "%22").replace(/\./g, "%2E")
                     let itemWrapper = document.createElement("div")
                     itemWrapper.classList.add("item-wrapper")
                     let item = document.createElement("a")
-                    item.href = "/" + file.toLowerCase() + "/#:~:text=" + result.split(":")[0].replace(/,/g, "%2C").replace(/'/g, "%27").replace(/"/g, "%22")
+                    item.href = "/" + file.toLowerCase() + "/#:~:text=" + resultClean
                     item.innerHTML = result + "..."
                     item.classList.add("result-item")
                     item.classList.add("ps-3")

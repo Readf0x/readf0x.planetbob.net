@@ -11,10 +11,9 @@ export default {
 <template>
     <div class="hero">
         <div class="text container-md">
-            <h1>Example Header</h1>
+            <h1>Davis Forsythe</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat vulputate elit
-                id condimentum. Morbi ut diam id tellus finibus.
+                Learning Front-end Web Developer
             </p>
         </div>
         <div class="gradient"></div>
