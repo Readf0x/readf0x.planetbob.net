@@ -7,7 +7,7 @@ import Logo from './Logo.vue'
 <template>
     <nav class="navbar" :class="{ active: scrollPosition > 50 || !hero }">
         <logo />
-        <div class="easter-egg">
+        <div class="easter-egg" @click="unHide()">
             :3
         </div>
         <div>
@@ -35,6 +35,9 @@ export default {
     methods: {
         onScroll() {
             this.scrollPosition = window.scrollY
+        },
+        unHide() {
+            document.querySelector(".easter-egg").classList.replace("easter-egg", "unhidden")
         }
     },
     mounted() {
@@ -51,5 +54,8 @@ export default {
             color: $nord10;
             cursor: none;
         }
+    }
+    .unhidden {
+        color: $nord11;
     }
 </style>
