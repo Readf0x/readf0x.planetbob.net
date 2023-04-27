@@ -28,9 +28,21 @@ Some of my favorites include:
 If you're wondering what kind of movies I enjoy watching, here are some of my favorites:
 - The Matrix
 - Your Name
-- The Iron Giant
 - Akira
 - Alita: Battle Angel
+- Doctor Strange
+- Blade
+- Forest Gump
+- Hackers
+- Hardcore Henry
+- John Wick
+- Joker (2019)
+- MFKZ
+- Neon Genesis Evangelion: The End of Evangelion *`(You should probably watch the show first lol)`*
+- No Country for Old Men
+- Office Space
+- Spider-Man: Into the Spider-Verse
+- Spirited Away
 
 ### <div class="head-wrapper"><span class="head pe-1">Gaming</span></div>
 As previously mentioned, I do enjoy a bit of gaming here and there, not *that* much... 
