@@ -18,3 +18,7 @@ I was in my AP Human Geography class freshman year, and I found a [github repo](
 ### <div class="head-wrapper"><span class="head pe-1">Keyboard Layout Editor</span></div>
 This project also began in my AP Human Geography class (It was really boring, lol). If you've read the [about page](/about/) (yes I'm linking it again, and no one can stop me) you'd know that my biggest hobby is custom keyboards. Well I found a site called [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) and liked it so much I made my own fork of it. I originally planned to add a *ton* of features that were *wayyy* beyond my skill level, so it didn't end up working out, lol.
 <iframe src="https://readf0x.github.io/keyboard-layout-editor/"></iframe>
+
+### <div class="head-wrapper"><span class="head pe-1">And...</span></div>
+That's it. I don't have anymore surviving projects, but I plan to change that as soon as possib-<br>
+**What am I thinking?** There's [one more project I can show you!](/)
