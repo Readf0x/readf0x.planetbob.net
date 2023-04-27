@@ -3,6 +3,9 @@
 
 .btn-search {
     @extend .btn-navbar;
+    &:active {
+        background-color: $nord3 !important;
+    }
     input {
         display: inline;
         width: 25vw;

@@ -3,7 +3,7 @@ export default {
     data() {
         return {
             scrollPosition: null
-        }
+        };
     },
     props: {
         hero: {
@@ -13,14 +13,14 @@ export default {
     },
     methods: {
         onScroll() {
-            this.scrollPosition = window.scrollY
+            this.scrollPosition = window.scrollY;
         },
         unHide() {
-            document.querySelector(".easter-egg").classList.replace("easter-egg", "unhidden")
+            document.querySelector(".easter-egg").classList.replace("easter-egg", "unhidden");
         }
     },
     mounted() {
-        window.addEventListener('scroll', this.onScroll)
+        window.addEventListener("scroll", this.onScroll);
     }
 }
 </script>

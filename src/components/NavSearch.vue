@@ -14,8 +14,8 @@ export default {
 </script>
 
 <template>
-    <form action="/search/" method="get" class="btn btn-search">
+    <form action="/search/" method="get" class="btn btn-search me-1">
         <button class="bi bi-search" type="submit" />
-        <input class="form-control" name="q" placeholder="Search..." />
+        <input class="form-control" name="q" placeholder="Search..." autocomplete="off" />
     </form>
 </template>
