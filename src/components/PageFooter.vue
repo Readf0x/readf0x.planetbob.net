@@ -30,7 +30,6 @@
                     <a href="https://www.facebook.com/profile.php?id=100082943906080"><i class="bi bi-facebook pe-1"></i></a>
                     <a href="https://www.instagram.com/davis.a.forsythe/"><i class="bi bi-instagram pe-1"></i></a>
                     <a href="https://github.com/Readf0x"><i class="bi bi-github pe-1"></i></a>
-                    <!-- TODO: Add steam profile link -->
                     <a href="https://steamcommunity.com/id/readf0x"><i class="bi bi-steam"></i></a>
                 </div>
             </footer>
@@ -51,6 +50,30 @@
         text-decoration: none;
         &:hover {
             @extend a;
+        }
+        .bi-twitter:hover {
+            color: #1d9bf0;
+        }
+        .bi-facebook:hover {
+            background: linear-gradient(0deg, #0062E0 0%, #19AFFF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .bi-instagram:hover {
+            background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .bi-github:hover {
+            color: #fafafa;
+        }
+        .bi-steam:hover {
+            background: linear-gradient(180deg, #111D2E 0%, #0E2455 53.39%, #1386B7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
     }
 }
