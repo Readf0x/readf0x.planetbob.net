@@ -1,7 +1,3 @@
-<script setup>
-import json from "/src/markdown/markdown.json";
-</script>
-
 <script>
 export default {
     methods: {
@@ -76,6 +72,10 @@ export default {
         this.displayResults()
     }
 }
+</script>
+
+<script setup>
+import json from "/src/markdown/markdown.json";
 </script>
 
 <template>

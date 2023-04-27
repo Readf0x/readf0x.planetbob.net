@@ -13,7 +13,7 @@ export default {
         <div class="text container-md">
             <h1>Davis Forsythe</h1>
             <p>
-                Learning Front-end Web Developer
+                Front-end web development with a side of salt
             </p>
         </div>
         <div class="gradient"></div>
