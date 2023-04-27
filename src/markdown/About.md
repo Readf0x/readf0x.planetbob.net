@@ -23,6 +23,15 @@ Some of my favorites include:
 - Zutomayo
 - And more!
 
+<!-- TODO: add to search index -->
+### <div class="head-wrapper"><span class="head pe-1">Movies</span></div>
+If you're wondering what kind of movies I enjoy watching, here are some of my favorites:
+- The Matrix
+- Your Name
+- The Iron Giant
+- Akira
+- Alita: Battle Angel
+
 ### <div class="head-wrapper"><span class="head pe-1">Gaming</span></div>
 As previously mentioned, I do enjoy a bit of gaming here and there, not *that* much... 
 ![](/src/assets/sarcasm.png)

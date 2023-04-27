@@ -1,24 +1,22 @@
 <script>
-import { nextTick } from 'vue'
-
 export default {
     data() {
         return {
-            dateTime: Date.now()
+            dateTime: this.age()
         }
     },
     methods: {
         age() {
-            let today = new Date()
-            let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()
-            let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds()
-            this.dateTime = date+' '+time
+            let today = new Date(Date.now() - 1163167265000)
+            // let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()
+            // let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds()
+            return today.getSeconds()+" seconds, "+today.getMinutes()+" minutes, "+today.getHours()+" hours, "+today.getDate()+" days, "+today.getMonth()+" months, "+(today.getFullYear() - 1970)+" years"
         }
     },
     mounted() {
-        nextTick(() => {
-            this.dateTime = Date.now()
-        })
+        setInterval(() => {
+            this.dateTime = this.age()
+        }, 1000);
     }
 }
 </script>
@@ -26,15 +24,33 @@ export default {
 <template>
     <div class="age-timer">
         <div class="left">As you are reading this, I am currently</div>
-        <!-- TODO: complete date function -->
         <div class="big">{{ dateTime }}</div>
         <div class="right">old.</div>
+        <div class='small'>(Closest estimate)</div>
     </div>
 </template>
 
 <style lang="scss">
-    .age-timer {
-        align-self: center;
-        font-size: 24px;
+@import '../node_modules/nord/src/sass/nord.scss';
+
+.age-timer {
+    align-self: center;
+    font-size: 24px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    .big {
+        font-family: 'Roboto Mono', monospace;
+        align-self: center
     }
+    .right {
+        align-self: flex-end;
+    }
+    .small {
+        align-self: center;
+        font-size: .4em;
+        color: $nord3;
+        font-style: italic;
+    }
+}
 </style>
