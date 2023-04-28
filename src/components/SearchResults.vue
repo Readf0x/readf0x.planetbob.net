@@ -11,6 +11,9 @@ export default {
                 }
             }
         },
+        clamp(num, min, max) {
+            return Math.min(Math.max(num, min), max)
+        },
         searchIndex() {
             for(const file in this.index) {
                 this.results[file] = []
