@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.vue'
 import MainHero from './components/MainHero.vue'
 import PageFooter from './components/PageFooter.vue';
 import MainAge from './components/MainAge.vue';
+import MainNicholas from './components/MainNicholas.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import MainAge from './components/MainAge.vue';
     <div class="content">
         <MainHero />
         <MainAge />
+        <MainNicholas />
     </div>
     <PageFooter />
 </template>
