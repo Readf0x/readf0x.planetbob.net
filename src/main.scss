@@ -36,7 +36,7 @@ $input-btn-focus-width: 0;
         }
     }
     .navbar {
-        position: fixed;
+        position: sticky;
         flex: none;
         top: 0;
         width: 100%;
@@ -44,7 +44,6 @@ $input-btn-focus-width: 0;
         transition: 0.3s ease-in-out;
         &.active {
             background-color: $nord0;
-            position: sticky;
         }
     }
     .content {
@@ -54,6 +53,26 @@ $input-btn-focus-width: 0;
         display: flex;
         flex-direction: column;
         gap: 5px;
+        .cards-scroll-wrapper {
+            .cards-wrapper {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+            &::-webkit-scrollbar {
+                background-color: $nord0;
+                height: 10px;
+        
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: $nord1;
+                border-radius: 20px;
+                &:hover {
+                    background-color: $nord2;
+                    border-radius: 20px;
+                }
+            }
+        }
     }
     .footer {
         flex: none;
@@ -63,4 +82,8 @@ $input-btn-focus-width: 0;
 html, body {
     @extend #app;
     --bs-border-color: #3B4252;
+}
+img {
+    border-radius: 20px;
+    width: max-content;
 }

@@ -75,8 +75,5 @@ pre {
         width: fit-content;
     }
 }
-img {
-    border-radius: 20px;
-}
 
 </style>

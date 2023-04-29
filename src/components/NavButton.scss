@@ -22,4 +22,10 @@
     i.bi {
         padding-right: 0.25em;
     }
+    &.inline {
+        position: relative;
+        font-size: inherit;
+        height: 1em;
+        bottom: 2px;
+    }
 }

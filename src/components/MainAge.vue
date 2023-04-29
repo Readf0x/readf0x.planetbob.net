@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-    <div class="age-timer">
+    <div class="age-timer container-md">
         <div class="left">As you are reading this, I am currently</div>
         <div class="big">{{ dateTime }}</div>
         <div class="right">old.</div>
@@ -36,15 +36,19 @@ export default {
 .age-timer {
     align-self: center;
     font-size: 24px;
-    width: 60vw;
+    // width: 60vw;
     display: flex;
     flex-direction: column;
     .big {
         font-family: 'Roboto Mono', monospace;
         align-self: center
     }
+    .left {
+        padding-left: 5%;
+    }
     .right {
         align-self: flex-end;
+        padding-right: 5%;
     }
     .small {
         align-self: center;
