@@ -1,8 +1,16 @@
+<script setup>
+import NavButton from './NavButton.vue'
+import NavSearch from './NavSearch.vue'
+import Logo from './Logo.vue'
+import Cookies from '/node_modules/js-cookie/dist/js.cookie'
+</script>
+
 <script>
 export default {
     data() {
         return {
-            scrollPosition: null
+            scrollPosition: null,
+            cookieClicker: 0
         };
     },
     props: {
@@ -16,7 +24,16 @@ export default {
             this.scrollPosition = window.scrollY
         },
         unHide() {
-            document.querySelector(".easter-egg").classList.replace("easter-egg", "unhidden")
+            try {
+                document.querySelector(".easter-egg").classList.replace("easter-egg", "unhidden")
+            // eslint-disable-next-line no-empty
+            } catch (err) {}
+            this.cookieClicker++
+            if(this.cookieClicker > 4) {
+                Cookies.remove('fatass')
+            } else {
+            console.log((5-this.cookieClicker).toString()+' clicks to go!~')
+            }
         }
     },
     mounted() {
@@ -24,12 +41,6 @@ export default {
         if(this.hero) {document.querySelector(".navbar").style.position = "fixed"}
     }
 }
-</script>
-
-<script setup>
-import NavButton from './NavButton.vue'
-import NavSearch from './NavSearch.vue'
-import Logo from './Logo.vue'
 </script>
 
 <template>

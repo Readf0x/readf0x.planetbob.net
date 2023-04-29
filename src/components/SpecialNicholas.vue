@@ -21,9 +21,9 @@ export default {
                 Dropdown Menu
             </button>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" @click="eatYourCookieFatassBecauseImDeletingTheButton()">ʕ •ᴥ•ʔ</a></li>
-                <li><a class="dropdown-item" @click="eatYourCookieFatassBecauseImDeletingTheButton()">=^._.^= ∫</a></li>
-                <li><a class="dropdown-item" @click="eatYourCookieFatassBecauseImDeletingTheButton()">₍ᐢ･ܫ･ᐢ₎</a></li>
+                <li><a class="dropdown-item" @click="eatYourCookieFatassBecauseImDeletingTheButton()">That's right,</a></li> <!-- ʕ •ᴥ•ʔ -->
+                <li><a class="dropdown-item" @click="eatYourCookieFatassBecauseImDeletingTheButton()">you only get</a></li>  <!-- =^._.^= ∫ -->
+                <li><a class="dropdown-item" @click="eatYourCookieFatassBecauseImDeletingTheButton()">to click one.</a></li> <!-- ₍ᐢ･ܫ･ᐢ₎ -->
             </ul>
         </div>
     </div>
