@@ -1,12 +1,10 @@
 ## <div class="head-wrapper"><span class="head pe-1">Projects</span></div>
 
-I've worked on quite a few projects over the years, all of the notable ones being web-based. I actually no longer have access to quite a few "failed" projects, because if I didn't succeed in making whatever I was trying to make, I tended to nuke the source code. Big mistake, I know, but there's not much I can do about it now... Because of the non-existence of all failed projects, I don't have much to show on this page, But I'll show what I can.
+I've worked on quite a few projects over the years, all of the notable ones being web-based. I actually no longer have access to quite a few "failed" projects, because if I didn't succeed in making whatever I was trying to make, I tended to nuke the source code. Big mistake, I know, but there's not much I can do about it now... Because of the non-existence of all failed projects, I don't have much to show on this page, But I'll show what I can. Also, if you're on the school's network, I'm pretty sure they blocked github.io, which is what my old site is hosted on. So if you see a couple "webpage failed to load" or something of a similar nature underneath here, just know that it's because the school is blocking it.
 
 ### <div class="head-wrapper"><span class="head pe-1">Earliest work</span></div>
 
-The earliest surviving code I've written belongs to a site I had to make for cyber foundations. I really went all-out, I didn't know much but I went way above and beyond what was required to pass. I've left it untouched for preservation purposes, besides the links to files, becuase they were all direct links to files on my computer at the time. Not exactly smart I know.
-
-<iframe src="/WebSite-main/awesome-cool-homepage/"></iframe>
+The earliest surviving code I've written belongs to a site I had to make for cyber foundations. I really went all-out, I didn't know much but I went way above and beyond what was required to pass. I would show it here, but it's near impossible to add my terrible old code to this well made vite project. If I manage to figure it out, you'll see it here later, but for now, the repo is staying private.
 
 ### <div class="head-wrapper"><span class="head pe-1">And then?</span></div>
 

@@ -27,17 +27,17 @@
                     <a href="/license/">License Info</a>
                 </div>
                 <div class="footer-right">
-                    <a href="https://twitter.com/DavisForsythe"
+                    <a href="https://twitter.com/DavisForsythe" target="_blank"
                         ><i class="bi bi-twitter pe-1"></i
                     ></a>
-                    <a href="https://www.facebook.com/profile.php?id=100082943906080"
+                    <a href="https://www.facebook.com/profile.php?id=100082943906080" target="_blank"
                         ><i class="bi bi-facebook pe-1"></i
                     ></a>
-                    <a href="https://www.instagram.com/davis.a.forsythe/"
+                    <a href="https://www.instagram.com/davis.a.forsythe/" target="_blank"
                         ><i class="bi bi-instagram pe-1"></i
                     ></a>
-                    <a href="https://github.com/Readf0x"><i class="bi bi-github pe-1"></i></a>
-                    <a href="https://steamcommunity.com/id/readf0x"><i class="bi bi-steam"></i></a>
+                    <a href="https://github.com/Readf0x" target="_blank"><i class="bi bi-github pe-1"></i></a>
+                    <a href="https://steamcommunity.com/id/readf0x" target="_blank"><i class="bi bi-steam"></i></a>
                 </div>
             </footer>
         </div>

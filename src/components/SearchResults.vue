@@ -89,7 +89,7 @@ export default {
 </script>
 
 <script setup>
-import json from '/src/markdown/markdown.json'
+import json from '/public/markdown/markdown.json'
 </script>
 
 <template>

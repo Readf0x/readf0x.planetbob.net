@@ -54,7 +54,7 @@ If you're wondering what kind of movies I enjoy watching, here are some of my fa
 ### <div class="head-wrapper"><span class="head pe-1">Gaming</span></div>
 
 As previously mentioned, I do enjoy a bit of gaming here and there, not _that_ much...
-![](/src/assets/sarcasm.png)
+![](/images/sarcasm.png)
 
 I swear I don't play **_that_** much... Only a [_liiitle_](https://steamtime.info/s/76561198311420145)... :P
 

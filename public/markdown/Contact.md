@@ -2,4 +2,4 @@
 
 You can reach me at [davis.a.forsythe@gmail.com](mailto:davis.a.forsythe@gmail.com), on [twitter](https://twitter.com/messages/compose?recipient_id=1279457739983532038), or on discord at readf0x#6685
 
-![catJAM](/src/assets/catJAM.webp)
+![catJAM](/images/catJAM.webp)

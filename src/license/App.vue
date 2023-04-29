@@ -7,7 +7,7 @@ import PageFooter from '../components/PageFooter.vue'
 <template>
     <NavBar />
     <div class="content container-md">
-        <Marked parse="License.md" />
+        <Marked parse="/markdown/License.md" />
     </div>
     <PageFooter />
 </template>

@@ -7,7 +7,7 @@ import PageFooter from '../components/PageFooter.vue'
 <template>
     <NavBar />
     <div class="content container-md">
-        <Marked parse="Contact.md" />
+        <Marked parse="/markdown/Contact.md" />
     </div>
     <PageFooter />
 </template>

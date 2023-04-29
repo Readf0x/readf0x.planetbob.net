@@ -12,7 +12,7 @@ import Cards from './components/MainSpot.vue'
     <div class="content">
         <hero />
         <div class="welcomer container-md">
-            <marked parse="Welcomer.md" />
+            <marked parse="/markdown/Welcomer.md" />
         </div>
         <age />
         <cards />
