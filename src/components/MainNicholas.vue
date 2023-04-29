@@ -1,14 +1,14 @@
 <template>
-    <div class="nicholas">
+    <div class="nicholas container">
         <p>And for my friend nicholas, here's a dropdown menu:</p>
         <div class="dropdown">
             <button class="btn btn-navbar dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown Menu
             </button>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">ʕ •ᴥ•ʔ</a></li>
-                <li><a class="dropdown-item" href="#">=^._.^= ∫</a></li>
-                <li><a class="dropdown-item" href="#">₍ᐢ･ܫ･ᐢ₎</a></li>
+                <li><a class="dropdown-item">ʕ •ᴥ•ʔ</a></li>
+                <li><a class="dropdown-item">=^._.^= ∫</a></li>
+                <li><a class="dropdown-item">₍ᐢ･ܫ･ᐢ₎</a></li>
             </ul>
         </div>
     </div>
