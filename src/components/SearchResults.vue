@@ -44,7 +44,11 @@ export default {
             let div =  document.querySelector(".result-list")
             for(const file in this.results) {
                 let title = document.createElement("a")
-                title.href = "/" + file.toLowerCase() + "/"
+                if(file == "Main") {
+                    title.href = "/"
+                } else {
+                    title.href = "/" + file.toLowerCase() + "/"
+                }
                 title.innerHTML = file + ":"
                 title.classList.add("result-title")
                 div.appendChild(title)
