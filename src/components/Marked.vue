@@ -20,6 +20,12 @@ export default {
                 document.querySelector('.marked').innerHTML = marked.parse(text)
                 this.markedData = marked.parse(text)
                 hljs.highlightAll()
+                // eslint-disable-next-line no-cond-assign
+                for (var links = document.links, i = 0, a; a = links[i]; i++) {
+                    if (a.host !== location.host) {
+                            a.target = '_blank';
+                    }
+                }
             })
     }
 }
