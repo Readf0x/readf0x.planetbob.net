@@ -1,7 +1,7 @@
 <script setup>
-import Marked from '../components/Marked.vue';
+import Marked from '../components/Marked.vue'
 import NavBar from '../components/NavBar.vue'
-import PageFooter from '../components/PageFooter.vue';
+import PageFooter from '../components/PageFooter.vue'
 </script>
 
 <template>
@@ -13,10 +13,10 @@ import PageFooter from '../components/PageFooter.vue';
 </template>
 
 <style lang="scss">
-    .content iframe {
-        background-color: white;
-        width: 100%;
-        height: 40vh;
-        border-radius: 20px;
-    }
+.content iframe {
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+    border-radius: 20px;
+}
 </style>

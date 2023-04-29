@@ -1,13 +1,13 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
-import hljs from 'highlight.js';
-import { marked } from 'marked';
+import hljs from 'highlight.js'
+import { marked } from 'marked'
 </script>
 <script>
 export default {
     data() {
         return {
-            markedData: ""
+            markedData: ''
         }
     },
     props: {
@@ -15,19 +15,18 @@ export default {
     },
     mounted() {
         fetch('/src/markdown/' + this.parse)
-            .then(response => response.text())
-            .then(text => {
+            .then((response) => response.text())
+            .then((text) => {
                 document.querySelector('.marked').innerHTML = marked.parse(text)
                 this.markedData = marked.parse(text)
-                hljs.highlightAll();
+                hljs.highlightAll()
             })
     }
 }
 </script>
 
 <template>
-    <div class="marked">
-    </div>
+    <div class="marked"></div>
     <!-- <div class='test'>{{ markedData }}</div> -->
 </template>
 
@@ -75,5 +74,4 @@ pre {
         width: fit-content;
     }
 }
-
 </style>

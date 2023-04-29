@@ -1,7 +1,7 @@
 <script setup>
-import Nicholas from '../components/SpecialNicholas.vue';
+import Nicholas from '../components/SpecialNicholas.vue'
 import NavBar from '../components/NavBar.vue'
-import PageFooter from '../components/PageFooter.vue';
+import PageFooter from '../components/PageFooter.vue'
 </script>
 
 <template>

@@ -1,11 +1,12 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script setup>
-</script>
+<script setup></script>
 
 <template>
     <div class="footer-wrapper">
         <div class="container">
-            <footer class="footer d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <footer
+                class="footer d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+            >
                 <div class="footer-left">
                     <a href="/">
                         <svg
@@ -22,13 +23,19 @@
                     </a>
                     <span>Property of Davis Forsythe</span>
                 </div>
-                <div class='links'>
+                <div class="links">
                     <a href="/license/">License Info</a>
                 </div>
-                <div class='footer-right'>
-                    <a href="https://twitter.com/DavisForsythe"><i class="bi bi-twitter pe-1"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100082943906080"><i class="bi bi-facebook pe-1"></i></a>
-                    <a href="https://www.instagram.com/davis.a.forsythe/"><i class="bi bi-instagram pe-1"></i></a>
+                <div class="footer-right">
+                    <a href="https://twitter.com/DavisForsythe"
+                        ><i class="bi bi-twitter pe-1"></i
+                    ></a>
+                    <a href="https://www.facebook.com/profile.php?id=100082943906080"
+                        ><i class="bi bi-facebook pe-1"></i
+                    ></a>
+                    <a href="https://www.instagram.com/davis.a.forsythe/"
+                        ><i class="bi bi-instagram pe-1"></i
+                    ></a>
                     <a href="https://github.com/Readf0x"><i class="bi bi-github pe-1"></i></a>
                     <a href="https://steamcommunity.com/id/readf0x"><i class="bi bi-steam"></i></a>
                 </div>
@@ -55,7 +62,7 @@
             color: #1d9bf0;
         }
         .bi-facebook:hover {
-            background: linear-gradient(0deg, #0062E0 0%, #19AFFF 100%);
+            background: linear-gradient(0deg, #0062e0 0%, #19afff 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -70,7 +77,7 @@
             color: #fafafa;
         }
         .bi-steam:hover {
-            background: linear-gradient(180deg, #111D2E 0%, #0E2455 53.39%, #1386B7 100%);
+            background: linear-gradient(180deg, #111d2e 0%, #0e2455 53.39%, #1386b7 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;

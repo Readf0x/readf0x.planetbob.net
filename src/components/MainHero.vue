@@ -2,7 +2,7 @@
 export default {
     data() {
         return {
-            nav: document.querySelector(".navbar")
+            nav: document.querySelector('.navbar')
         }
     }
 }
@@ -12,9 +12,7 @@ export default {
     <div class="hero">
         <div class="text container-md">
             <h1>Davis Forsythe</h1>
-            <p>
-                Front-end web development with a side of salt
-            </p>
+            <p>Front-end web development with a side of salt</p>
         </div>
         <div class="gradient"></div>
     </div>

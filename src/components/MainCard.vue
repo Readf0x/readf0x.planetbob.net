@@ -3,7 +3,7 @@ export default {
     props: {
         image: {
             type: String,
-            default: "defaultCard.jpg"
+            default: 'defaultCard.jpg'
         }
     }
 }
@@ -11,8 +11,8 @@ export default {
 
 <template>
     <div class="card mx-3">
-        <img :src="'/src/assets/'+image" :alt="image">
-        <div class='card-body'>
+        <img :src="'/src/assets/' + image" :alt="image" />
+        <div class="card-body">
             <p class="card-text"><slot>I love my pussycat &gt;w&lt;</slot></p>
         </div>
     </div>

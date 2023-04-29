@@ -10,13 +10,26 @@ export default {
             let today = new Date(Date.now() - 1163167265000)
             // let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()
             // let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds()
-            return today.getSeconds()+" seconds, "+today.getMinutes()+" minutes, "+today.getHours()+" hours, "+today.getDate()+" days, "+today.getMonth()+" months, "+(today.getFullYear() - 1970)+" years"
+            return (
+                today.getSeconds() +
+                ' seconds, ' +
+                today.getMinutes() +
+                ' minutes, ' +
+                today.getHours() +
+                ' hours, ' +
+                today.getDate() +
+                ' days, ' +
+                today.getMonth() +
+                ' months, ' +
+                (today.getFullYear() - 1970) +
+                ' years'
+            )
         }
     },
     mounted() {
         setInterval(() => {
             this.dateTime = this.age()
-        }, 1000);
+        }, 1000)
     }
 }
 </script>
@@ -26,7 +39,7 @@ export default {
         <div class="left">As you are reading this, I am currently</div>
         <div class="big">{{ dateTime }}</div>
         <div class="right">old.</div>
-        <div class='small'>(Closest estimate)</div>
+        <div class="small">(Closest estimate)</div>
     </div>
 </template>
 
@@ -41,7 +54,7 @@ export default {
     flex-direction: column;
     .big {
         font-family: 'Roboto Mono', monospace;
-        align-self: center
+        align-self: center;
     }
     .left {
         padding-left: 5%;
@@ -52,7 +65,7 @@ export default {
     }
     .small {
         align-self: center;
-        font-size: .4em;
+        font-size: 0.4em;
         color: $nord3;
         font-style: italic;
     }

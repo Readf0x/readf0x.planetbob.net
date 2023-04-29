@@ -25,7 +25,6 @@ $input-btn-focus-width: 0;
     &::-webkit-scrollbar {
         background-color: $nord0;
         width: 10px;
-
     }
     &::-webkit-scrollbar-thumb {
         background-color: $nord1;
@@ -62,7 +61,6 @@ $input-btn-focus-width: 0;
             &::-webkit-scrollbar {
                 background-color: $nord0;
                 height: 10px;
-        
             }
             &::-webkit-scrollbar-thumb {
                 background-color: $nord1;
@@ -79,9 +77,10 @@ $input-btn-focus-width: 0;
     }
     // position: relative;
 }
-html, body {
+html,
+body {
     @extend #app;
-    --bs-border-color: #3B4252;
+    --bs-border-color: #3b4252;
 }
 img {
     border-radius: 20px;
