@@ -81,7 +81,7 @@ switch(day) {
 }
 ```
 
-This terrible function is about the extent of my knowledge of kotlin... yeah. Despite these challenges, I have pursued front end web development to the point of making the site you're on right now! This site is written in [vue](https://vuejs.org/) and [vite](https://vitejs.dev/), with help from [bootstrap](https://getbootstrap.com/). I'm using single-file components for all the elements on the site. The text you're reading right now is actually a [markdown file](/src/markdown/About.md) being compiled using [marked](https://marked.js.org/). The kotlin code block above was styled with [highight.js](https://highlightjs.org/). The navbar and the buttons on it use bootstrap, with custom styling from yours truly.
+This terrible function is about the extent of my knowledge of kotlin... yeah. Despite these challenges, I have pursued front end web development to the point of making the site you're on right now! This site is written in [vue](https://vuejs.org/) and [vite](https://vitejs.dev/), with help from [bootstrap](https://getbootstrap.com/). I'm using single-file components for all the elements on the site. The text you're reading right now is actually a [markdown file](/markdown/About.md) being compiled using [marked](https://marked.js.org/). The kotlin code block above was styled with [highight.js](https://highlightjs.org/). The navbar and the buttons on it use bootstrap, with custom styling from yours truly.
 
 ### <div class="head-wrapper"><span class="head pe-1">Keyboards</span></div>
 
