@@ -23,6 +23,7 @@ export default defineConfig({
         nicholas: resolve(__dirname, 'nicholas/index.html'),
         projects: resolve(__dirname, 'projects/index.html'),
         search: resolve(__dirname, 'search/index.html'),
+        404: resolve(__dirname, '404/404.html')
         /* eslint-enable no-undef */
       }
     }
