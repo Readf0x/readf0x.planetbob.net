@@ -45,6 +45,7 @@ export default {
         displayResults() {
             let div = document.querySelector('.result-list')
             for (const file in this.results) {
+                console.log(file)
                 let title = document.createElement('a')
                 if (file == 'Main') {
                     title.href = '/'
@@ -64,7 +65,11 @@ export default {
                     let itemWrapper = document.createElement('div')
                     itemWrapper.classList.add('item-wrapper')
                     let item = document.createElement('a')
-                    item.href = '/' + file.toLowerCase() + '/#:~:text=' + resultClean
+                    if (file == 'Main') {
+                        item.href = '/#:~:text=' + resultClean
+                    } else {
+                        item.href = '/' + file.toLowerCase() + '/#:~:text=' + resultClean
+                    }
                     item.innerHTML = result + '...'
                     item.classList.add('result-item')
                     item.classList.add('ps-3')
@@ -93,7 +98,7 @@ import json from '/public/markdown/markdown.json'
 </script>
 
 <template>
-    <div class="search-results">
+    <div class="search-results container-md">
         <h2>Search results for: "{{ query }}"</h2>
         <!-- <p>{{ results }}</p> -->
         <div class="result-list"></div>
@@ -109,7 +114,7 @@ import json from '/public/markdown/markdown.json'
     text-decoration: none;
 }
 .item-wrapper {
-    width: 50%;
+    max-width: 500px;
     border-top: 1px solid $nord3;
     .result-item {
         display: block;

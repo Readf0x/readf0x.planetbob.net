@@ -31,16 +31,17 @@ export default {
         display: flex;
         align-items: center;
         flex-direction: column;
+        text-align: center;
         h1 {
             font-weight: 600;
-            font-size: 96px;
+            font-size: 13vmin;
             background: linear-gradient(90deg, #bf616a 25%, #5e81ac 75%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
         p {
-            font-size: 32px;
+            font-size: 36px;
         }
     }
     .gradient {

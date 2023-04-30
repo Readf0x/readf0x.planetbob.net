@@ -13,6 +13,8 @@ $cyan: $nord8;
 
 $input-btn-focus-width: 0;
 
+$code-color: $nord11;
+
 @import 'bootstrap/scss/bootstrap';
 
 #app {
@@ -85,4 +87,5 @@ body {
 img {
     border-radius: 20px;
     width: max-content;
+    max-width: 100%;
 }
