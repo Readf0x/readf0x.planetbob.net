@@ -1,1 +1,1 @@
-# (Currently) Private site for IT class at CTC written in Vue, Bootstrap, and SCSS
+# Site for ~IT class at CTC~ *me!* written in Vue, Bootstrap, and SCSS
