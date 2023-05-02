@@ -3,7 +3,6 @@ import Navbar from './components/NavBar.vue'
 import MobileNav from './components/MobileNavBar.vue'
 import Hero from './components/MainHero.vue'
 import PageFooter from './components/PageFooter.vue'
-import Age from './components/MainAge.vue'
 import Marked from './components/Marked.vue'
 import Cards from './components/MainSpot.vue'
 import MobileDetect from 'mobile-detect/mobile-detect'
@@ -27,7 +26,6 @@ export default {
         <div class="welcomer container-md">
             <marked parse="/markdown/Welcomer.md" />
         </div>
-        <age />
         <cards />
     </div>
     <page-footer />

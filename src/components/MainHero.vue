@@ -15,6 +15,7 @@ export default {
             <p>Front-end web development with a side of salt</p>
         </div>
         <div class="gradient"></div>
+        <div class='shading'></div>
     </div>
 </template>
 
@@ -32,10 +33,11 @@ export default {
         align-items: center;
         flex-direction: column;
         text-align: center;
+        z-index: 1;
         h1 {
             font-weight: 600;
             font-size: 13vmin;
-            background: linear-gradient(90deg, #bf616a 25%, #5e81ac 75%);
+            background: linear-gradient(90deg, #bf616a 25%, #D08770 75%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -50,6 +52,12 @@ export default {
         width: 100%;
         height: 15vh;
         background: linear-gradient(180deg, rgba(46, 52, 64, 0) 0%, #2e3440 100%);
+    }
+    .shading {
+        position: absolute;
+        width: 100%;
+        height: 65vh;
+        background-color: #2e34407F;
     }
 }
 </style>

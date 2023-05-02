@@ -1,4 +1,21 @@
+<script>
+export default {
+    props: {
+        title: {
+            type: String,
+            default: "Example Header"
+        }
+    }
+}
+</script>
+
 <template>
+    <div class='section-banner'>
+        <h2><div class="head-wrapper">
+            <span class="head pe-1" style="font-size: 3vmax">{{ title }}</span>
+        </div></h2>
+        <p class="container-md"><slot>Example text</slot></p>
+    </div>
     <div class="section-wrapper">
         <div class="custom-shape-divider-top-1683032991">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -10,7 +27,7 @@
     </div>
 </template>
 
-<style>
+<style lang="scss">
 .custom-shape-divider-top-1683032991 {
     position: absolute;
     top: 0;
@@ -34,5 +51,13 @@
 .section-wrapper {
     position: relative;
     top: -5px;
+    padding-bottom: 100px;
+}
+.section-banner {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #3B4252;
+    flex-direction: column;
 }
 </style>

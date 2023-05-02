@@ -20,22 +20,10 @@ export default {
 <template>
     <navbar v-if="md.mobile() == null" />
     <mobile-nav v-if="md.mobile() != null" />
-    <div class='fuck-you-hudson'>
-        <h2><div class="head-wrapper">
-            <span class="head pe-1" style="font-size: 5vmax">Me, Myself, and I</span>
-        </div></h2>
-    </div>
-    <page-banner />
+    <page-banner title="Me, Myself, and I">Hey, I'm Davis Forsythe, but I go by readf0x online. I'm 16 and currently studying information technology at Desoto County Career Tech West. Some of my hobbies include custom keyboards and front end web development. I'm autistic with ADHD (not a very fun combination, believe me) and I try my best to keep up with school. I enjoy games like Portal 2, Half-Life 2, Fallout 4, H3VR, Unpacking, and ULTRAKILL.</page-banner>
     <div class="content container-md">
         <Marked parse="/markdown/About.md" />
     </div>
     <PageFooter />
 </template>
 
-<style lang="scss">
-.fuck-you-hudson {
-    display: flex;
-    justify-content: center;
-    background-color: #3B4252;
-}
-</style>

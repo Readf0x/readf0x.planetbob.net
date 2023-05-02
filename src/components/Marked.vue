@@ -2,12 +2,14 @@
 <script setup>
 import hljs from 'highlight.js'
 import { marked } from 'marked'
+import MobileDetect from 'mobile-detect'
 </script>
 <script>
 export default {
     data() {
         return {
-            markedData: ''
+            markedData: '',
+            md: new MobileDetect(window.navigator.userAgent)
         }
     },
     props: {
@@ -43,7 +45,8 @@ export default {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 40px 40px 10px;
+    justify-content: center;
+    // padding: 40px 40px 10px;
     flex: none;
     order: 0;
     align-self: stretch;

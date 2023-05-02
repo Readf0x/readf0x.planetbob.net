@@ -20,7 +20,6 @@ export default defineConfig({
         about: resolve(__dirname, 'about/index.html'),
         contact: resolve(__dirname, 'contact/index.html'),
         license: resolve(__dirname, 'license/index.html'),
-        nicholas: resolve(__dirname, 'nicholas/index.html'),
         projects: resolve(__dirname, 'projects/index.html'),
         search: resolve(__dirname, 'search/index.html'),
         404: resolve(__dirname, '404/404.html')
