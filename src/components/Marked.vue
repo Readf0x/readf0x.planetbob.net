@@ -55,7 +55,6 @@ export default {
         font-weight: 400;
         font-style: italic;
         color: #4c566a;
-        word-break: break-all;
     }
     .green {
         color: #a3be8c;
