@@ -30,7 +30,7 @@ export default {
             } catch (err) {}
             this.cookieClicker++
             if (this.cookieClicker > 4) {
-                Cookies.remove('fatass')
+                Cookies.remove('logo')
             } else {
                 console.log((5 - this.cookieClicker).toString() + ' clicks to go!~')
             }

@@ -21,7 +21,7 @@ export default {
 
 <style lang="scss">
 .hero {
-    background-image: url('/images/hero.png');
+    background-image: url('/images/hero.avif');
     background-size: cover;
     background-position: bottom;
     height: 65vh;
