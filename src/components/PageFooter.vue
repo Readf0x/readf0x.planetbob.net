@@ -1,6 +1,3 @@
-<!-- eslint-disable vue/multi-word-component-names -->
-<script setup></script>
-
 <template>
     <div class="footer-wrapper">
         <div class="container">
