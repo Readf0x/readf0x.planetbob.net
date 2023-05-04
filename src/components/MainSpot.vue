@@ -7,7 +7,7 @@ import Card from './MainCard.vue'
         <div class="cards-title ps-3">
             <h2>My Pride and Joy</h2>
         </div>
-        <div class="cards-scroll-wrapper" style="overflow-x: scroll">
+        <div class="cards-scroll-wrapper" style="overflow-x: scroll;">
             <div class="cards-wrapper" style="width: max-content">
                 <card image="20221127_170721.avif">He is in his natural<br />habitat</card>
                 <card image="PXL_20210214_184243047.avif"
