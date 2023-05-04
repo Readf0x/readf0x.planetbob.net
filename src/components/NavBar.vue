@@ -41,6 +41,12 @@ export default {
         if (this.hero) {
             document.querySelector('.navbar').style.position = 'fixed'
         }
+        window.addEventListener('keydown', (event) => {
+            if(event.key == 'k' && event.ctrlKey) {
+                event.preventDefault()
+                document.querySelector('.btn-search input').focus()
+            }
+        })
     }
 }
 </script>
