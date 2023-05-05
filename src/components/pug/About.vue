@@ -76,7 +76,7 @@ pre
                             System.out.println("I'm going to kill myself");
                         }
                 }
-p This terrible function is about the extent of my knowledge of kotlin… yeah. Despite these challenges, I have pursued front end web development to the point of making the site you’re on right now! This site is written in #[a(href="https://vuejs.org/") vue] and #[a(href="https://vitejs.dev/") vite], with help from #[a(href="https://getbootstrap.com/") bootstrap]. I’m using single-file components for all the elements on the site. The text you’re reading right now is actually a #[a(href="/markdown/About.md") markdown file] being compiled using #[a(href="https://marked.js.org/") marked]. The kotlin code block above was styled with #[a(href="https://highlightjs.org/") highight.js]. The navbar and the buttons on it use bootstrap, with custom styling from yours truly.
+p This terrible function is about the extent of my knowledge of kotlin… yeah. Despite these challenges, I have pursued front end web development to the point of making the site you’re on right now! This site is written in #[a(href="https://vuejs.org/") vue] and #[a(href="https://vitejs.dev/") vite], with help from #[a(href="https://getbootstrap.com/") bootstrap]. I’m using single-file components for all the elements on the site. The text you’re reading right now is actually #[a(href="https://pugjs.org") pug.js] code for performance reasons, but it was originally markdown being transformed with #[a(href="https://marked.js.org/") marked]. The kotlin code block above was styled with #[a(href="https://highlightjs.org/") highight.js]. The navbar and the buttons on it use bootstrap, with custom styling from yours truly.
 h3
     .head-wrapper
         span.head Keyboards
