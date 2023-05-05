@@ -1,9 +1,9 @@
 <script setup>
 import Navbar from '../components/NavBar.vue'
 import MobileNav from '../components/MobileNavBar.vue'
-import Marked from '../components/Marked.vue'
 import PageFooter from '../components/PageFooter.vue'
 import MobileDetect from 'mobile-detect/mobile-detect'
+import Contact from '../components/pug/Contact.vue'
 </script>
 
 <script>
@@ -20,7 +20,7 @@ export default {
     <navbar v-if="md.mobile() == null" />
     <mobile-nav v-if="md.mobile() != null" />
     <div class="content container-md">
-        <Marked parse="/markdown/Contact.md" />
+        <contact />
     </div>
     <PageFooter />
 </template>

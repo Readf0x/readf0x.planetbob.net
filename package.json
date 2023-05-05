@@ -17,9 +17,11 @@
     "dompurify": "^3.0.2",
     "highlight.js": "^11.7.0",
     "js-cookie": "^3.0.5",
+    "jstransformer-highlight": "^2.0.0",
     "marked": "^4.3.0",
     "mobile-detect": "^1.4.5",
     "nord": "^0.2.1",
+    "pug": "^3.0.2",
     "sass": "^1.62.0",
     "sass-loader": "^13.2.2",
     "vue": "^3.2.47"

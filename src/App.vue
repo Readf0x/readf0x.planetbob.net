@@ -3,9 +3,9 @@ import Navbar from './components/NavBar.vue'
 import MobileNav from './components/MobileNavBar.vue'
 import Hero from './components/MainHero.vue'
 import PageFooter from './components/PageFooter.vue'
-import Marked from './components/Marked.vue'
 import Cards from './components/MainSpot.vue'
 import MobileDetect from 'mobile-detect/mobile-detect'
+import Welcomer from './components/pug/Welcomer.vue'
 </script>
 
 <script>
@@ -24,7 +24,7 @@ export default {
     <div class="content">
         <hero />
         <div class="welcomer container-md">
-            <marked parse="/markdown/Welcomer.md" />
+            <welcomer />
         </div>
         <cards />
     </div>

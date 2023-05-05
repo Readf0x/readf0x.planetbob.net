@@ -89,3 +89,45 @@ img {
     width: max-content;
     max-width: 100%;
 }
+
+.head-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    // padding: 40px 40px 10px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    .head {
+        font-weight: 800;
+    }
+    .subhead {
+        font-weight: 400;
+        font-style: italic;
+        color: #4c566a;
+    }
+    .green {
+        color: #a3be8c;
+        position: relative;
+        bottom: 0.1em;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+    .blue {
+        color: #88c0d0;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+}
+pre {
+    border-radius: 20px;
+    width: fit-content;
+    code {
+        background-color: $nord1 !important;
+        width: fit-content;
+    }
+}
